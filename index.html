@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessible & SEO-Friendly HTML5 Web Page</title>
+  <meta name="description" content="A sample HTML5 web page built with semantic structure, accessibility best practices, and SEO-friendly elements.">
+  <meta name="author" content="Your Name">
+</head>
+<body>
+
+  <!-- Header with Site Title -->
+  <header role="banner">
+    <h1>Welcome to WebWise: Learn Accessible HTML5</h1>
+    <p>Your beginner-friendly guide to building structured, accessible, and optimized websites.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav role="navigation" aria-label="Main Navigation">
+    <ul>
+      <li><a href="#about">About HTML5</a></li>
+      <li><a href="#accessibility">Accessibility</a></li>
+      <li><a href="#seo">SEO Basics</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main role="main">
+    <!-- Section: About -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">What is HTML5?</h2>
+      <p>HTML5 is the latest version of the HyperText Markup Language, the standard language for creating web pages. It introduces semantic elements that enhance the meaning and accessibility of your content.</p>
+    </section>
+
+    <!-- Section: Accessibility -->
+    <section id="accessibility" aria-labelledby="accessibility-heading">
+      <h2 id="accessibility-heading">Why Accessibility Matters</h2>
+      <p>Accessibility ensures that everyone, including people with disabilities, can access and interact with your website. Using semantic HTML5 tags helps assistive technologies understand your page structure.</p>
+      <ul>
+        <li>Use landmarks like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
+        <li>Include <code>aria-label</code> where helpful.</li>
+        <li>Write descriptive link text.</li>
+      </ul>
+    </section>
+
+    <!-- Section: SEO -->
+    <section id="seo" aria-labelledby="seo-heading">
+      <h2 id="seo-heading">SEO Fundamentals</h2>
+      <p>Search Engine Optimization (SEO) helps your content appear in search engine results. Good SEO practices include:</p>
+      <ol>
+        <li>Using heading tags in a logical order (<code>h1</code> to <code>h6</code>).</li>
+        <li>Including meta tags like <code>description</code> and <code>title</code>.</li>
+        <li>Writing human-readable and keyword-relevant content.</li>
+      </ol>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        Email: <a href="mailto:info@webwise.com">info@webwise.com</a><br>
+        Phone: <a href="tel:+254713231777">+254713231777</a>
+      </address>
+    </section>
+    <p>&copy; 2025 WebWise Learning. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
